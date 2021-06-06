@@ -1,0 +1,23 @@
+.row{
+  width: 70%;
+  margin: auto;
+  position: relative;
+  color: #fff;
+  
+}
+
+.row form input{
+  display: inline-block;
+  padding: 10px;
+  border: .3px solid #EEE;
+  width: 30%;
+}
+
+.row input:last-of-type {
+  width: 10%;
+  cursor: pointer;
+}
+
+.active{
+  background: rgb(54, 137, 247);
+}

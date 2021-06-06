@@ -1,0 +1,33 @@
+.row{
+  width: 70%;
+  margin: auto;
+  position: relative;
+  color: #fff;
+  
+}
+
+.row span{
+  display: inline-block;
+  padding: 10px;
+  border: .3px solid #EEE;
+  width: 30%;
+}
+
+.row span:last-of-type {
+  width: 7.8%;
+  cursor: pointer;
+}
+
+.active{
+  background: rgb(54, 137, 247);
+}
+
+
+.show{
+  padding: 10px;
+}
+
+/* .container{
+  background: #fff;
+  color: rgb(94, 172, 94);
+} */
